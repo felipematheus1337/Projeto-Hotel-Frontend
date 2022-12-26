@@ -2,20 +2,24 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-margin-top: -60px;
 color: white;
 display: flex;
 justify-content: center;
+margin-top: -60px;
+align-items: center;
 `;
 
 export const Form = styled.form`
 display: flex;
 flex-direction: column;
+margin: 5px auto;
 color: white;
+justify-content: center;
+align-items: center;
+text-align: center;
 
 & label {
     margin: 10px;
-    text-align: center;
 }
 
 & h2 {
@@ -26,11 +30,11 @@ color: white;
 
 button {
     padding: 5px;
-    margin: 15px auto;
     border-radius: 10px;
     translucent: auto;
     font-weight: 1rem;
     font-size: 18px;
+    margin-top: 10px;
 }
 
 button:hover {
@@ -39,6 +43,15 @@ button:hover {
 }
 
 h4 {
+    text-align: center;
+}
+
+`;
+export const Hospede = styled.div`
+align-items: center;
+
+& button {
+    margin-left: 5px;
     text-align: center;
 }
 `;
